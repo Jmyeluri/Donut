@@ -1,0 +1,35 @@
+
+
+
+{
+   "Donut": [
+	
+      {
+        "num": 1,
+        "fact": "1 in 5 r gonna die",
+        "id": 0,
+        "category": "Medical",
+        "charity": "Red",
+        "link": "https://red.org/donate/"
+      },
+		
+      {
+        "num": 2,
+        "fact": "Dropout rates of 16 to 24-years-old students who come from low income families are seven times more likely to drop out than those from families with higher incomes.",
+        "id": 1,
+        "category": "Education",
+        "charity": "CityYear",
+        "link": "https://ssl.charityweb.net/cityyear/"
+      },
+    
+      {
+        "num": 3,
+        "fact": "Globally, more than 1 billion people have little or no access to healthcare and 6.3 million children die each year primarily from preventable diseases.",
+        "id": 2,
+        "category": "Poverty",
+        "charity": "VillageReach",
+        "link": "https://donatenow.networkforgood.org/VillageReach"
+      }
+		
+   ]
+}

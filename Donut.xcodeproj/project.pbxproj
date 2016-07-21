@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		449E3EBE95F78E44C3CF4525 /* Pods_Donut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE7C46C54A4E09B9AA892D7 /* Pods_Donut.framework */; };
 		764CF3FB1D3568FE00121F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764CF3FA1D3568FE00121F15 /* AppDelegate.swift */; };
 		764CF3FD1D3568FE00121F15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764CF3FC1D3568FE00121F15 /* ViewController.swift */; };
 		764CF4001D3568FE00121F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764CF3FE1D3568FE00121F15 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		764CF4051D3568FE00121F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764CF4031D3568FE00121F15 /* LaunchScreen.storyboard */; };
 		764CF4101D3568FE00121F15 /* DonutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764CF40F1D3568FE00121F15 /* DonutTests.swift */; };
 		764CF41B1D3568FE00121F15 /* DonutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764CF41A1D3568FE00121F15 /* DonutUITests.swift */; };
+		768F5A1B1D39FF9D00B95E8C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F5A1A1D39FF9D00B95E8C /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DE7C46C54A4E09B9AA892D7 /* Pods_Donut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Donut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		613808E1E465F281C4F7EECB /* Pods_DonutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		760E5C2C1D39FC1300E51622 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
 		764CF3F71D3568FE00121F15 /* Donut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Donut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		764CF3FA1D3568FE00121F15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		764CF3FC1D3568FE00121F15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,10 @@
 		764CF4161D3568FE00121F15 /* DonutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		764CF41A1D3568FE00121F15 /* DonutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutUITests.swift; sourceTree = "<group>"; };
 		764CF41C1D3568FE00121F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768F5A1A1D39FF9D00B95E8C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Pods/SwiftyJSON/SwiftyJSON.swift; sourceTree = SOURCE_ROOT; };
+		9269AA26AEB59CB8459389AC /* Pods-Donut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Donut/Pods-Donut.debug.xcconfig"; sourceTree = "<group>"; };
+		A4EBF6C5998D5B9BE015AAC3 /* Pods_DonutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D511378837528FB380827C /* Pods-Donut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donut.release.xcconfig"; path = "Pods/Target Support Files/Pods-Donut/Pods-Donut.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449E3EBE95F78E44C3CF4525 /* Pods_Donut.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6203EB3FE3624F6FACEDADCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9269AA26AEB59CB8459389AC /* Pods-Donut.debug.xcconfig */,
+				F0D511378837528FB380827C /* Pods-Donut.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E467C1CF1330F9786CF8236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7C46C54A4E09B9AA892D7 /* Pods_Donut.framework */,
+				613808E1E465F281C4F7EECB /* Pods_DonutTests.framework */,
+				A4EBF6C5998D5B9BE015AAC3 /* Pods_DonutUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		764CF3EE1D3568FE00121F15 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				764CF40E1D3568FE00121F15 /* DonutTests */,
 				764CF4191D3568FE00121F15 /* DonutUITests */,
 				764CF3F81D3568FE00121F15 /* Products */,
+				6203EB3FE3624F6FACEDADCD /* Pods */,
+				6E467C1CF1330F9786CF8236 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +128,10 @@
 		764CF3F91D3568FE00121F15 /* Donut */ = {
 			isa = PBXGroup;
 			children = (
+				768F5A1A1D39FF9D00B95E8C /* SwiftyJSON.swift */,
 				764CF3FA1D3568FE00121F15 /* AppDelegate.swift */,
 				764CF3FC1D3568FE00121F15 /* ViewController.swift */,
+				760E5C2C1D39FC1300E51622 /* test.playground */,
 				764CF3FE1D3568FE00121F15 /* Main.storyboard */,
 				764CF4011D3568FE00121F15 /* Assets.xcassets */,
 				764CF4031D3568FE00121F15 /* LaunchScreen.storyboard */,
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 764CF41F1D3568FE00121F15 /* Build configuration list for PBXNativeTarget "Donut" */;
 			buildPhases = (
+				0E0D3FC3DA27D7B3E54E3197 /* [CP] Check Pods Manifest.lock */,
 				764CF3F31D3568FE00121F15 /* Sources */,
 				764CF3F41D3568FE00121F15 /* Frameworks */,
 				764CF3F51D3568FE00121F15 /* Resources */,
+				1ED9A633A94EBD05B315FD8D /* [CP] Embed Pods Frameworks */,
+				F6E90459C412529180C71A65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 764CF4221D3568FE00121F15 /* Build configuration list for PBXNativeTarget "DonutTests" */;
 			buildPhases = (
+				837208637805B618596C3C7A /* [CP] Check Pods Manifest.lock */,
 				764CF4071D3568FE00121F15 /* Sources */,
 				764CF4081D3568FE00121F15 /* Frameworks */,
 				764CF4091D3568FE00121F15 /* Resources */,
+				7319A3F9A02840891D9DA3A3 /* [CP] Embed Pods Frameworks */,
+				4937383591A78C15B7C7C5C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 764CF4251D3568FE00121F15 /* Build configuration list for PBXNativeTarget "DonutUITests" */;
 			buildPhases = (
+				98511BAE5817186AAF591ECD /* [CP] Check Pods Manifest.lock */,
 				764CF4121D3568FE00121F15 /* Sources */,
 				764CF4131D3568FE00121F15 /* Frameworks */,
 				764CF4141D3568FE00121F15 /* Resources */,
+				A48BE4699920B2773D27319D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,11 +295,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E0D3FC3DA27D7B3E54E3197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1ED9A633A94EBD05B315FD8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Donut/Pods-Donut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4937383591A78C15B7C7C5C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonutTests/Pods-DonutTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7319A3F9A02840891D9DA3A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonutTests/Pods-DonutTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		837208637805B618596C3C7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98511BAE5817186AAF591ECD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A48BE4699920B2773D27319D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonutUITests/Pods-DonutUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E90459C412529180C71A65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Donut/Pods-Donut-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		764CF3F31D3568FE00121F15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				768F5A1B1D39FF9D00B95E8C /* SwiftyJSON.swift in Sources */,
 				764CF3FD1D3568FE00121F15 /* ViewController.swift in Sources */,
 				764CF3FB1D3568FE00121F15 /* AppDelegate.swift in Sources */,
 			);
@@ -400,23 +565,29 @@
 		};
 		764CF4201D3568FE00121F15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9269AA26AEB59CB8459389AC /* Pods-Donut.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Donut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.jmyeluri.Donut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		764CF4211D3568FE00121F15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D511378837528FB380827C /* Pods-Donut.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Donut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.jmyeluri.Donut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -485,6 +656,7 @@
 				764CF4211D3568FE00121F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		764CF4221D3568FE00121F15 /* Build configuration list for PBXNativeTarget "DonutTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +665,7 @@
 				764CF4241D3568FE00121F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		764CF4251D3568FE00121F15 /* Build configuration list for PBXNativeTarget "DonutUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +674,7 @@
 				764CF4271D3568FE00121F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
