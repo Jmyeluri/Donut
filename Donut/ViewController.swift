@@ -9,7 +9,7 @@
 import UIKit
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIPopoverPresentationControllerDelegate {
 
   
     @IBOutlet weak var borderView: UIView!
@@ -75,6 +75,15 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func INFO(sender: AnyObject) {
+        
+        self.performSegueWithIdentifier("InfoView", sender: self)
+        
+        
+    }
+    
+    
+    
     
     
     
@@ -84,8 +93,8 @@ class ViewController: UIViewController {
         borderView.layer.borderWidth = 7
         
       let bCol = UIColor(red: 190.0/255.0, green: 233.0/255.0, blue: 236.0/255.0, alpha: 1.0)
-        CharityName.layer.borderColor = bCol.CGColor
-        CharityName.layer.borderWidth = 3
+        //CharityName.layer.borderColor = bCol.CGColor
+        //CharityName.layer.borderWidth = 3
             
         borderView.layer.borderColor = bCol.CGColor
         
@@ -125,6 +134,25 @@ class ViewController: UIViewController {
         
         
         
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if(segue.identifier == "InfoView"){
+            var vc = segue.destinationViewController as! UIViewController
+            var controller = vc.popoverPresentationController
+            
+            if(controller != nil){
+                controller?.delegate = self
+                
+            }
+            
+        }
+
+    }
+    
+    
+    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
+        return .None
     }
 
 
